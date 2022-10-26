@@ -5,7 +5,7 @@ namespace OP\UserGuide\Admin;
 use SilverStripe\Admin\LeftAndMain;
 use SilverStripe\ORM\FieldType\DBField;
 
-class UserGuideAdmin extends LeftAndMain
+class Admin extends LeftAndMain
 {
     private static $url_segment = 'user-guide';
 
